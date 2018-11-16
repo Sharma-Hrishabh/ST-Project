@@ -1,0 +1,33 @@
+progress {
+/* style rules */
+background-color: #000000;
+border: none;
+width: 100%;
+height: 2px;
+position: fixed;
+top: 0;
+}
+progress::-webkit-progress-bar {
+/* style rules */
+background-color: #000000;
+border: none;
+}
+progress::-webkit-progress-value {
+/* style rules */
+background-color: red;
+}
+progress::-moz-progress-bar {
+/* style rules */
+background-color: #000000;
+border: none;
+}
+progress::-moz-progress-bar-value {
+/* style rules */
+background-color: red;
+}
+ /* style="width: 100%; height: 3px; position: fixed; top: 0; border: none; */
+/* progress::-webkit-progress-value {background-color: #aaa !important;} */
+
+a.navbar-brand {
+    padding: 2px 15px !important;
+}

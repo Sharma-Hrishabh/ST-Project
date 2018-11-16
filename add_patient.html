@@ -215,7 +215,7 @@ margin-left: 25%;
     <!-- navigation bar -->
     <div class="wrapper">
           <header style="background: url('media/p.jpg') no-repeat 50% 50%;
-                background-size: cover;height:600px;">
+                background-size: cover;height:600px;background-attachment:fixed;">
                 <progress id="prog-bar" value="0" max="100" style="z-index:11;"></progress>
 
 
@@ -226,7 +226,7 @@ margin-left: 25%;
                       </div>
 
                       <div class="logo">
-                            HMS
+                            MEDWEB
                       </div>
 
                       <div class="menu">
@@ -259,7 +259,7 @@ margin-left: 25%;
       <input id="pat_name" placeholder="Patient_name" type="text" tabindex="2" required>
     </fieldset>
     <fieldset>
-      <input id="pat_doc_id" placeholder="Doctor_id" type="text" tabindex="3" required>
+      <input id="pat_doc_id" placeholder="Doctor_id" type="number" tabindex="3" required>
     </fieldset>
 
     <button name="submit" type="submit" id="contact-submit" onclick="addPatient()" data-submit="...Sending">Submit</button>
